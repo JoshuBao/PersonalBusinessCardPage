@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    background-color: #23252C;
+}
+
+body{
+ align-items: center;
+ text-align:  center;
+ background-color: #1A1B21;
+
+}
+
+.photo--profile-picture {
+padding-top:45px;
+padding-left: 120px;
+padding-right: 120px;
+align-items: center;
+clip: rect(0px,50px,4000px,0px);
+width: 550px;;
+height: 320;
+}
