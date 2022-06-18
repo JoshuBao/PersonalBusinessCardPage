@@ -11,13 +11,71 @@ body{
  background-color: #1A1B21;
 
 }
+.name--title{
+
+margin-top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.name--subtitle{
+
+margin-top: 6px;
+color: #F3BF99;
+width: 178.06px;
+height: 14.19px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+}
+.name--website{
+position: center;
+width: 228px;
+height: 16px;
+left: 161px;
+top: 437px;
+margin-top: 9px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+
+
+text-align: center;
+
+color: #F5F5F5;
+}
+.photoframe{ 
+    width: 560px;
+    height: 366px;
+    padding-top:45px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #23252C;
+}
+
 
 .photo--profile-picture {
-padding-top:45px;
-padding-left: 120px;
-padding-right: 120px;
+margin-top:45;
 align-items: center;
+object-fit: cover;
 clip: rect(0px,50px,4000px,0px);
-width: 550px;;
+width: 320px;
 height: 320;
+border-radius: 15px;
+
+}
+
+.main-content{
+    display:flex;
 }

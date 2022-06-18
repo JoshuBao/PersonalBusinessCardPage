@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 export default function App(){
     return(
-        <body>
+        <body className="app">
             <Photo />
             <Name />
             <Buttons />
